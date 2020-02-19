@@ -283,7 +283,7 @@ class GVlsService(Ide.Object):
                         self.vala_args[s] = ''
                         continue
                     if s == '--enable-checking':
-                        sself.vala_args[s] = ''
+                        self.vala_args[s] = ''
                         continue
                     if s == '--enable-deprecated':
                         self.vala_args[s] = ''
